@@ -1,0 +1,66 @@
+.list_item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.priority_hight {
+  border-left: 3px solid var(--hight);
+  margin-left: -3px;
+}
+
+.priority_medium {
+  border-left: 3px solid var(--medium);
+  margin-left: -3px;
+}
+
+.priority_low {
+  border-left: 3px solid var(--low);
+  margin-left: -3px;
+}
+
+.list_item-label,
+.list_item-action {
+  padding: 0.5rem;
+}
+
+.list_item-label {
+  width: 85%;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.list_item-action {
+  display: flex;
+}
+
+.list_item-action button {
+  width: 1rem;
+}
+
+.list_item-actionDelete {
+  margin-right: 0.5rem;
+  background: url("../../assets/icon_trash.svg") no-repeat center bottom;
+}
+
+.list_item-actionDelete:hover,
+.list_item-actionDelete:focus {
+  background-image: url("../../assets/icon_trash_alt.svg");
+}
+
+.list_item-actionEdit {
+  margin-left: 0.5rem;
+  background: url("../../assets/icon_edit.svg") no-repeat center bottom;
+}
+
+.list_item-actionEdit:hover,
+.list_item-actionEdit:focus {
+  background-image: url("../../assets/icon_edit_alt.svg");
+}
+
+.list_item-actionDelete:focus,
+.list_item-actionEdit:focus {
+  box-shadow: none;
+  border-radius: 0;
+}

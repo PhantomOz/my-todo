@@ -1,10 +1,10 @@
-import TaskListProvider from "./context/TaskListContext";
+import TaskListProvider from '../../context/TaskListContext';
 
-import Header from "./components/Header";
-import TaskForm from "./components/TaskForm";
-import TaskList from "./components/TaskList";
+import Header from '../Header';
+import TaskForm from '../TaskForm';
+import TaskList from '../TaskList';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
